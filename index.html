@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Document</title>
+     <style>
+          .read-only {
+               display: block;
+               border: none;
+               cursor: default;
+          }
+
+          .read-only:focus {
+               outline: 0;
+          }
+
+          .add-item-container {
+               margin: 10px 0;
+               display: flex;
+          }
+
+          .add-item-remove-button {
+               border: 1px solid #F49A6D;
+               padding: 0.2rem 0.5rem;
+               background: transparent;
+               border-radius: 2px;
+               font-size: 9px;
+               text-transform: uppercase;
+               color: #f49a6d;
+               transition: .2s;
+          }
+
+          .add-item-remove-button:hover {
+               cursor: pointer;
+               background: #f49a6d;
+               color: #fff;
+          }
+     </style>
+</head>
+<body>
+     <div id="addItem"></div>
+     <hr>
+     <script src="jquery-3.3.1.min.js"></script>
+     <script src="script.js"></script>
+</body>
+</html>
